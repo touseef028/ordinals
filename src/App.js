@@ -1168,6 +1168,17 @@ function App() {
     'bc1pd56u6ycq2rxjwhp5r2f2gucmtcv3mewst2uqymry0aspnwn9plus2t6ag6',
     'bc1ph4lpaeghjvpjp22xrxvece8d078h992y96p869uhg8g3fgkds99qvw8ua0',
     'bc1p0jwhlm026rhl0xpa2s76k2yjar4yts2g5fa0ff3ey094fur765uq0fwx4c',
+    'bc1qclcygyngwsgxujxyn0k4tqlyzxrvzjcv32lucu',
+    'bc1p509tgcywncrw63urdnyzmgjr92gcaluj2jc2t585lxqy8dxvmzfsnq3yfy',
+    'bc1p2eslmx5ux2txjsrzwjyxel9482ljjf85mzn5uvs8a5q4tvz8ggcseflru4',
+    'bc1pzucvkv0qw53cwxjn668k7yzt0hmwz4exj8kdezlde433atjg33dqfyqgzl',
+    'bc1pqza3yzy6vf963g7xgqwt4xnws6nj36fu2c2q9hhkh7c2zqfr4krq7wan6d',
+    'bc1p4zpmxrfvkd6jfwmu7vd4xk8t5fxx0vc5scygcug93ygav4dpv3es63vphf',
+    'bc1pahk6estu344a2ple785f0em4elhlxces4kkgmtu4xl4t7e2xl60sgyvj6e',
+    'bc1pr549rfat4tgh2h7u3w4ddmy4r5s9ts4qkamkdshq4gdfusweurxqdqev3y',
+    'bc1p54ew0v5kkenvh4g02ccm8nqwrveky5lz9gzmrrjlspkhxxjx57cq9fnxk7',
+    'bc1pykv7cw8rkz53gnhtaeqwn88qdqqj28h4h848rc5zdvxe0vd0fexsw4v02f',
+    'bc1p6evkp6v58sxzufhfedpvg99k4dgpc6slnduvv3vjpjq8sde6c2uqnc3hu9',
   ]; // List of eligible criteria
 
   const checkEligibility = () => {
