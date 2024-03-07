@@ -1,14 +1,140 @@
+body {
+  background-color: #ccc2bb;
+}
+body,
+button,
+input {
+  font-family: "Fredoka", sans-serif;
+}
+
 .App {
   text-align: center;
-  margin-top: 50px;
+  height: 100vh;
+}
+
+.header {
+  width: 95%;
+  margin: 18px auto;
+  display: flex;
+}
+
+.header img {
+  justify-content: center;
+  align-items: start;
+  width: 116px;
+  height: 120px;
+}
+
+.App h1,
+p {
+  margin: 0px;
 }
 
 .dialog {
-  border: 1px solid #ccc;
-  padding: 20px;
+  border: 2px solid rgba(169, 91, 21, 0.683);
+  background: rgba(244, 2, 98, 1);
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  padding: 20px 0px;
   margin-top: 20px;
+  transition: 4s;
+  position: relative;
 }
 
-.dialog p {
-  margin: 0;
+.inputStyle {
+  width: 100%;
+  padding: 18px 25px 20px;
+  border-radius: 8px;
+  margin-right: 50px;
+  border: 2px solid rgba(169, 91, 21, 0.683);
+  background: rgba(107, 104, 104, 0.088);
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: -0.36px;
+}
+.inputStyle::placeholder{
+  color: white
+}
+
+.inputStyle:focus-visible {
+  width: 100%;
+  padding: 18px 25px 20px;
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid rgba(169, 91, 21, 0.683);
+  background: rgba(107, 104, 104, 0.088);
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: -0.36px;
+}
+
+.eligibilityBox {
+  width: 60%;
+  margin: 0 auto;
+  border: 5px dashed rgba(244, 2, 98, 1);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.eligibilityInputBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0px;
+}
+
+.buttonEligibility {
+  cursor: pointer;
+  position: relative;
+  width: 230px;
+  height: 64px;
+  display: flex;
+  outline: none;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgb(19, 16, 25);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.36px;
+  transition: all 0.4s ease 0s;
+}
+
+.buttonEligibility:hover{
+  cursor: pointer;
+  border: 2px solid rgb(150, 5, 63) !important;
+  background: rgba(244, 2, 98, 1) !important;
+  color: white;
+}
+
+.crossBtn{
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: white;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: rgba(169, 91, 21, 0.683);
+  border: 1px dotted rgba(169, 91, 21, 0.683);
 }
