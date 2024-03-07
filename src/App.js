@@ -40,9 +40,10 @@ function App() {
           <div className="dialog">
             <div onClick={() => setShowDialog(false)} className="crossBtn">x</div>
             {eligible ? (
-              <p>Congratulations! You are eligible.</p>
+              <p>Congratulations, you are pepoor handed. (Eligible)
+              </p>
             ) : (
-              <p>Sorry, you are not eligible for it.</p>
+              <p>Sorry, you will have to stay in the trenches. (Non eligible)</p>
             )}
           </div>
         )}
