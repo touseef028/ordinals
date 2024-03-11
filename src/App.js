@@ -2,17 +2,20 @@ import React, { useState } from "react";
 import "./App.css";
 import Logo from "./Assets/ordinalsLogo.webp";
 import { eligibleList } from "./Constants/EligbileList";
+import { eligibleList2 } from "./Constants/EligbileList2";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
   const [showDialog, setShowDialog] = useState(false);
-  const [eligible, setEligible] = useState(false);
+  const [eligibilityMessage, setEligibilityMessage] = useState("");
 
   const checkEligibility = () => {
     if (eligibleList.includes(inputValue.trim())) {
-      setEligible(true);
+      setEligibilityMessage("Congratulations, you are pepoor handed. (Eligible)");
+    } else if (eligibleList2.includes(inputValue.trim())) {
+      setEligibilityMessage("Congratulations atleast you made it to phase II (fcfs eligible)");
     } else {
-      setEligible(false);
+      setEligibilityMessage("Sorry, you will have to stay in the trenches. (Non eligible)");
     }
     setShowDialog(true);
   };
@@ -39,12 +42,7 @@ function App() {
         {showDialog && (
           <div className="dialog">
             <div onClick={() => setShowDialog(false)} className="crossBtn">x</div>
-            {eligible ? (
-              <p>Congratulations, you are pepoor handed. (Eligible)
-              </p>
-            ) : (
-              <p>Sorry, you will have to stay in the trenches. (Non eligible)</p>
-            )}
+            <p>{eligibilityMessage}</p>
           </div>
         )}
       </div>
