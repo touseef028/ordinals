@@ -11,7 +11,7 @@ function App() {
 
   const checkEligibility = () => {
     if (eligibleList.includes(inputValue.trim())) {
-      setEligibilityMessage("Congratulations, you are pepoor handed. (Eligible)");
+      setEligibilityMessage("Congratulations you made it to phase I (Guaranteed)");
     } else if (eligibleList2.includes(inputValue.trim())) {
       setEligibilityMessage("Congratulations atleast you made it to phase II (fcfs eligible)");
     } else {
