@@ -4056,4 +4056,10 @@ export const eligibleList = [
     'bc1pn9hakk8kfvwsv8lm38sa0v2w3hmpzdxzp65fh9w2axxsmeh7ddrqrnkx4k',
     'bc1p3th69yr88sr2uqftzulgxfpqm8gff2k7yk6e87ew2c749tlwtr7qngmrun',
     'bc1p7ke9wfev9grzct535mdjeze588m7je3sanwdc63awsfeqhxd6jaq9nknqh',
+    'bc1plnq7rmeg30wsjf08a9d03nvjj0vstlkd6g6p5ntxl9qxlu33dcpq65fa46',
+    'bc1pefrga37gw9v0usprz0rcrlqcfc64jsxds85wa6gzcxeg43sp0cqqu68upu',
+    'bc1pqu7309pw5j0tp88jh3rz8nv0ml9j3sywwaundcvm4xek9688zjsseg3y47',
+    'bc1pf7tahx6pmgpkue64e39h4wjhd6kmxj3xtqgm30w3g6wp395mw4nqfa0ce2',
+    'bc1pll2ra07sav3rp36c02x068rfyka8d9uprk6s9vrcy5kh956vq2hsuk72hs',
+    'bc1p9yg0m3r9npvnf97f3qykq08f86qjufgzxfulqefxq85ymqwe0y2q0kgkw8',
   ]; 
