@@ -4441,6 +4441,10 @@ export const eligibleList = [
     'bc1pu4g57f90gvqsv86z2qmqss4hv2puretx0mx74ge0af26qtp0dcsqx9upf3',
     'bc1p7gy0gq86snt3jpqd8ly0vh4gjmsv93t9lw75fle0uxggc9rdn8zs03cd5s',
     'bc1p6xumnwajvp7yu7mwe7txtc65lklkzwwrm3lqv4x67lp8zq0tg4ts4yglw3',
+    'bc1pkwq7saef3re7w9cn336dud3er700gdwmyze6ldnnvrnu2dg3kcjqvny6h7',
+    'bc1pezr6a9xju0f7alzqm93fxf53xh6j0ejuufjhuwaptermte067k0qmlqksa',
+    'bc1p8y6yyalkt8llkg6mfs0t2d2sk44xvv97szal0uwhdtkmwferankst0f3e2',
+
 
 
 
