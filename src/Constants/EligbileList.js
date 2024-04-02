@@ -4429,4 +4429,18 @@ export const eligibleList = [
     'bc1pazzp482wc2tkthd6z9yd9fy6utklpjd8y57krshchms25x4wpmzq29u95q',
     'bc1pqpyhrsfhn465qrzq5097yj2k7ma2rqj3raq86sk7famj6yarg3dsxw05ry',
     'bc1prrsk0022n8z3dreq0djq2s0wg90xgnntx6vtxk52yyaumvxawxus8ryl3z',
+    'bc1pc6ay2thgdy2p3cd9s0c3x899nk79ddk0s4h00kaend8y8y6amswq9cys9g',
+    'bc1pyrmujgh29f9nynskaa85ec2v7ku92pprzxvyldn48qhwdqvpcu6qymuwe6',
+    'bc1prkhvux6u2nx3sdwmnt7azcjqkst48nac6jayv3j75ysn5nj0prgq0gwhap',
+    'bc1pkuf5w8nk26uuf2r6ew09ynvqjp0tm2ffs7mfxf8d450vgqgd57zqf57s0g',
+    'bc1p4sfax05vj26h7ampgtkr9gmjsqjm208w27luumpgl4lhgdyta5pq6zk4pv',
+    'bc1pxsq2kecpd8g09fnc30u4pmmymnra8uwkwtsjl0hyvvts8uqthk8qzf72t6',
+    'bc1pfwl05rnhfqwz9s3xxstqnh403n4xa2rt8lu6ncj5y0ld6hhq4jcq5zsxm9',
+    'bc1pzt09a4aqww3ekgsgzrpwv2466kt65vtn50rpj7a48sdqgjehfw2sm5ze8z',
+    'bc1ptxkmg0zeq4g5a7hfhcc29ryplu4qzy3zrhch56p7gxvqry8vfsdqn55dm3',
+    'bc1pu4g57f90gvqsv86z2qmqss4hv2puretx0mx74ge0af26qtp0dcsqx9upf3',
+    'bc1p7gy0gq86snt3jpqd8ly0vh4gjmsv93t9lw75fle0uxggc9rdn8zs03cd5s',
+    
+
+
   ]; 
